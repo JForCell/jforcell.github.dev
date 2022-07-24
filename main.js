@@ -16,8 +16,14 @@ document.getElementById("head").innerHTML = `
 `; //head
 var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 if (isMobile) {
+	document.getElementById(
+		"logo"
+	).innerHTML = `<img class="fit" src="JFC-Logo-Round.png" />`;
 	console.log("You are using Mobile");
 } else {
+	document.getElementById(
+		"logo"
+	).innerHTML = `<img class="fit" src="JFC-Logo-Full.png" />`;
 	console.log("You are using Desktop");
 }
 
