@@ -1,0 +1,20 @@
+{
+	"name": "jforcell",
+	"version": "1.0.0",
+	"description": "Official page of JForCell",
+	"main": "index.html",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"git": "git add . && git commit && git push"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JForCell/jforcell.github.io.git"
+	},
+	"author": "Jonathan Lim",
+	"license": "UNLICENSED",
+	"bugs": {
+		"url": "https://github.com/JForCell/jforcell.github.io/issues"
+	},
+	"homepage": "https://www.jforcell.com"
+}
