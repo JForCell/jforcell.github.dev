@@ -16,5 +16,8 @@
 	"bugs": {
 		"url": "https://github.com/JForCell/jforcell.github.io/issues"
 	},
-	"homepage": "https://www.jforcell.com"
+	"homepage": "https://www.jforcell.com",
+	"devDependencies": {
+		"tailwindcss": "^3.1.6"
+	}
 }
