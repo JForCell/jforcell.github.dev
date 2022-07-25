@@ -6,6 +6,6 @@ function orderMail() {
 	const specInfo = document.getElementById("specinfo").value;
 	// console.log(company + product + unit + specInfo);
 	const link = `mailto:jforcell.dev@gmail.com?subject=Order&body=${company} has ordered ${product} for ${amount}${unit}%0D%0A${specInfo}`;
-	// window.open(link);
+	window.open(link);
 	console.log(link);
 }
