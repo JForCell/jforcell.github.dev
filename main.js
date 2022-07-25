@@ -13,18 +13,18 @@ document.getElementById("head").innerHTML = `
 <meta name="description" content="JForCell" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 `; //head
-const mobnav = `<nav>
+const mobnav = `<nav class="nomargin">
 <div class="navbar">
   <div class="container nav-container">
-      <input class="checkbox" type="checkbox" name="" id="" />
+  <input class="checkbox" type="checkbox" name="" id="" />
       <div class="hamburger-lines">
         <span class="line line1"></span>
         <span class="line line2"></span>
         <span class="line line3"></span>
       </div>  
-    <center>
+    <div class="logo center">
       <a href="index.html"><img src="JFC-Logo-Round.png" height="50"></a>
-  </center>
+  </div>
     <div class="menu-items">
       <li><a href="/index.html">Home</a></li>
       <li><a href="/about.html">About</a></li>
