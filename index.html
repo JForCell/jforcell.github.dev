@@ -5,19 +5,14 @@
 		<title>Jonathan-Home</title>
 	</head>
 	<body>
+		<div id="nav"></div>
 		<br />
 		<br />
-		<header>
-			<div id="nav"></div>
-			<br />
-			<br />
-			<br />
-
-			<div class="zoom" id="logo"></div>
-			<hr />
-		</header>
+		<br />
+		<div class="fit" id="logo"></div>
 		<main>
 			<section>
+				<hr />
 				<header>
 					<h2>Product</h2>
 				</header>
@@ -42,20 +37,35 @@
 							/>
 							<input
 								type="text"
-								id="order"
+								id="prod"
 								size="20"
 								placeholder="What to order"
 							/>
+							<input
+								type="text"
+								id="amount"
+								size="20"
+								placeholder="How much to order"
+							/>
+							<select name="unit" id="unit">
+								<option value="">Please choose unit.</option>
+								<option value="kg">kg</option>
+								<option value="g">g</option>
+								<option value="mg">mg</option>
+							</select>
 							<textarea
 								cols="30"
 								rows="5"
 								id="specinfo"
 								placeholder="Specified information"
 							></textarea>
-							<button onclick="subFeedback()">
-								<white>Submit</white>
-							</button>
 						</form>
+					</section>
+					<section>
+						<br />
+						<button onclick="orderMail()">
+							<white>Submit</white>
+						</button>
 					</section>
 				</div>
 				<br />
@@ -77,5 +87,6 @@
 		<script>
 			AOS.init();
 		</script>
+		<script src="order.js"></script>
 	</body>
 </html>
