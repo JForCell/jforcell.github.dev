@@ -1,11 +1,48 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "jforcell.github",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "jforcell.github",
-  "start_url": "/",
-  "theme_color": "#ffffff"
+	"description": "Official Page of JForCell",
+	"shortcuts": [
+		{
+			"name": "Home",
+			"short_name": "Home",
+			"description": "Home",
+			"url": "/index.html",
+			"icons": [
+				{
+					"src": "icon512.png",
+					"sizes": "512x512"
+				}
+			]
+		}
+	],
+	"screenshots": [
+		{
+			"src": "screenshot1.png",
+			"sizes": "3360x1834",
+			"type": "image/png",
+			"description": "PWABuilder Home Screen"
+		}
+	],
+	"icons": [
+		{
+			"src": "icon192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "icon512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable"
+		}
+	],
+	"background_color": "#ffffff",
+	"dir": "ltr",
+	"display": "standalone",
+	"name": "jforcell",
+	"orientation": "any",
+	"scope": "/",
+	"short_name": "jforcell",
+	"start_url": "/",
+	"theme_color": "#ffffff"
 }
