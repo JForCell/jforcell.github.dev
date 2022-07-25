@@ -80,7 +80,6 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
-
 .nav-container .hamburger-lines .line {
 	display: block;
 	height: 4px;
