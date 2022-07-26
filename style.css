@@ -2,6 +2,9 @@
 .nomargin {
 	margin: 0rem;
 }
+zin0 {
+	z-index: 0;
+}
 .center {
 	text-align: center;
 	align-items: center;
@@ -21,7 +24,7 @@
 
 .navbar {
 	width: 100%;
-	box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+	box-shadow: 0 1px 4px rgb(255, 255, 255);
 }
 
 .nav-container {
@@ -115,6 +118,7 @@
 	padding-left: 50px;
 	transition: transform 0.5s ease-in-out;
 	text-align: center;
+	background-color: white;
 }
 
 .navbar .menu-items li {
@@ -363,13 +367,12 @@ nav {
 	justify-content: space-between;
 	margin-left: 7rem;
 	margin-right: 7rem;
-	margin-top: px;
+	margin-top: 15px;
 	top: 0;
+	width: 100%;
 	position: fixed;
-	width: 85%;
 	background-color: white;
 }
-
 nav ul {
 	text-align: right;
 	list-style: none;
@@ -379,6 +382,8 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	margin: 0 0.5rem;
+	margin-right: 1rem;
+	left: -9rem;
 	position: relative;
 	text-align: left;
 }

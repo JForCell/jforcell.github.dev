@@ -43,10 +43,10 @@ const mobnav = `<nav class="nomargin">
       <a href="index.html"><img src="JFC-Logo-Round.png" height="50"></a>
   </div>
     <div class="menu-items">
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/products.html">Products</a></li>
-      <li><a href="/#orderSection">Order</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="#orderSection">Order</a></li>
     </div>
   </div>
 </div>
@@ -90,7 +90,7 @@ if (isMobile) {
 			"logo"
 		).innerHTML = `<img class="fit" src="JFC-Logo-Round.png" />`;
 	} catch (error) {}
-
+	document.getElementById("mobBack");
 	document.getElementById("nav").innerHTML = mobnav;
 	console.log("You are using Mobile");
 } else {
