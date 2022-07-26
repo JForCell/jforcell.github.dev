@@ -1,9 +1,4 @@
 document.getElementById("head").innerHTML = `
-<script type="module">
-   import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-   const el = document.createElement('pwa-update');
-   document.body.appendChild(el);
-</script>
 <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
@@ -90,15 +85,23 @@ const nonmobnav = `<nav>
 
 var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 if (isMobile) {
-	document.getElementById(
-		"logo"
-	).innerHTML = `<img class="fit" src="JFC-Logo-Round.png" />`;
+	try {
+		document.getElementById(
+			"logo"
+		).innerHTML = `<img class="fit" src="JFC-Logo-Round.png" />`;
+	} catch (error) {}
+
 	document.getElementById("nav").innerHTML = mobnav;
 	console.log("You are using Mobile");
 } else {
-	document.getElementById(
-		"logo"
-	).innerHTML = `<img class="fit" src="JFC-Logo-Full.png" />`;
+	try {
+		document.getElementById(
+			"logo"
+		).innerHTML = `<img class="fit" src="JFC-Logo-Full.png" />`;
+	} catch (error) {}
+
 	document.getElementById("nav").innerHTML = nonmobnav;
 	console.log("You are using Desktop");
 }
+
+// document.getElementById('hidden')

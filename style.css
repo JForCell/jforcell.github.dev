@@ -6,6 +6,7 @@
 	text-align: center;
 	align-items: center;
 }
+
 * {
 	margin: 0;
 	padding: 0;
@@ -104,8 +105,8 @@
 
 .navbar .menu-items {
 	padding-top: 120px;
-	box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
-	height: 100vh;
+	box-shadow: inset 0 0 4000px rgb(255, 255, 255);
+	height: 200vh;
 	width: 100%;
 	transform: translate(-150%);
 	display: flex;
@@ -169,6 +170,7 @@ white {
 	width: 50%;
 	align-items: center;
 }
+
 html {
 	scroll-behavior: smooth;
 }
@@ -359,11 +361,17 @@ nav {
 	display: flex;
 	font-weight: bold;
 	justify-content: space-between;
-	margin: 7rem;
-	margin-top: 15px;
+	margin-left: 7rem;
+	margin-right: 7rem;
+	margin-top: px;
+	top: 0;
+	position: fixed;
+	width: 85%;
+	background-color: white;
 }
 
 nav ul {
+	text-align: right;
 	list-style: none;
 	padding: 0;
 }
